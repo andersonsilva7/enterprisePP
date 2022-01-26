@@ -22,9 +22,12 @@ int menu () {
 
     printf("\n=====Seja bem vindo à Empresa PP=====\n\n");
     printf("-----------Sistema Principal----------\n");
-    printf("1-Novo funcionário\n2-Listar todos os funcionários\n");
-    printf("3-Pesquisar um funcionário pelo CPF\n4-Excluir um funcionário \n");
-    printf("5-Média dos salários dos funcionários\n6-Sair do sistema\n\n");
+    printf("1-Novo funcionário\n");
+    printf("2-Listar todos os funcionários\n");
+    printf("3-Pesquisar um funcionário pelo CPF\n");
+    printf("4-Excluir um funcionário \n");
+    printf("5-Média dos salários dos funcionários\n");
+    printf("6-Sair do sistema\n\n");
     printf("Escolha uma opção: ");
     scanf("%d", &op);
 
